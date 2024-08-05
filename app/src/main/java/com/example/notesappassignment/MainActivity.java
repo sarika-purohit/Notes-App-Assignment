@@ -52,17 +52,17 @@ public class MainActivity extends AppCompatActivity {
 
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
-        noteDAO = new NoteDAO(this);
-        noteDAO.open();
-        loadFragment(new NotesFragment());
+//        noteDAO = new NoteDAO(this);
+//        noteDAO.open();
+//        loadFragment(new NotesFragment());
 
-//        if (isLoggedIn) {
-//            noteDAO = new NoteDAO(this);
-//            noteDAO.open();
-//            loadFragment(new NotesFragment());
-//        } else {
-//            loadFragment(new LoginFragment());
-//        }
+        if (isLoggedIn) {
+            noteDAO = new NoteDAO(this);
+            noteDAO.open();
+            loadFragment(new NotesFragment());
+        } else {
+            loadFragment(new LoginFragment());
+        }
     }
 
 

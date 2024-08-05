@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "618015139985",
+    "project_id": "notesappassignment-ee0d0",
+    "storage_bucket": "notesappassignment-ee0d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618015139985:android:f03edae385a7a799adb730",
+        "android_client_info": {
+          "package_name": "com.example.notesappassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618015139985-vajsicogp7q6ab30oaf5b9l6unknlf00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notesappassignment",
+            "certificate_hash": "cbc0894aef3ac91d22ffa4397563f886b473ba8f"
+          }
+        },
+        {
+          "client_id": "618015139985-23of9gfgp33ll55ipqu7p4u7ufmum8va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpaRO7PI8CBDEo4mX4a4vu1ZT2G73q_FI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618015139985-23of9gfgp33ll55ipqu7p4u7ufmum8va.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
